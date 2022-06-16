@@ -1,6 +1,8 @@
+#!user/bin/env python
+
 import pandas as pd
 import os
-path= '.'
+path= './music'
 filenames=os.listdir(path)
 print(filenames)
 mp3_list=[]
